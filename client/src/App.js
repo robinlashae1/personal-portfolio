@@ -7,6 +7,7 @@ import BlogPage from './BlogPage';
 
 function App() {
   return (
+  <div className="full-height">
     <BrowserRouter>
       <Switch>
           <Route exact path="/" >
@@ -23,6 +24,7 @@ function App() {
           </Route>
       </Switch>
     </BrowserRouter>
+  </div>
   );
 }
 

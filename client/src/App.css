@@ -1,12 +1,34 @@
+.app{
+  height: auto;
+  background-color: wheat;
+}
 .portfolio{
   background-color: aqua;
+  height: 100%;
 }
 .aboutMe{
   background-color:blueviolet;
+  height: 100%;
 }
 .blogPage{
   background-color: pink;
+  height: 100%;
 }
 .homePage{
   background-color: yellow;
+  height: 100%;
+  width: 100%;
+}
+#portfolioImage{
+  
+}
+.navLinks{
+  background-color: tomato;
+}
+#navBar{
+  width: 50%;
+  text-align: center;
+  position: relative;
+  right: 0px; 
+
 }
