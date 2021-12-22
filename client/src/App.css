@@ -23,7 +23,11 @@ html {
   background-color: pink;
 }
 .homePage{
-  background-color: yellow;
+  background-image: url("https://s.cdnmpro.com/398039251/p/l/1/white-brick-wall-imitation-wallpaper-1782~16611.jpg");
+  /* background-repeat: no-repeat; */
+  background-size: auto;
+  background-size:cover;
+  background-position: center;
 }
 .navLinks{
   background-color: tomato;
@@ -44,13 +48,13 @@ h3{
   font-size: 40px;
   left: 350px;
   font-style: italic;
-  margin-top: 32%;
+  margin-top: 13%;
 }
 h1 {
   font-size: 70px;
   color: blue;
   left: 200px;
-  margin-top: 35%;
+  margin-top: 15%;
 }
 #portfolioImage{
   border-radius: 50%;
@@ -60,18 +64,20 @@ h1 {
   height: 550px;
   position: absolute;
   right:150px;
-  margin-top: 8%;
-  background-image: "https://cdn4.vectorstock.com/i/1000x1000/45/83/person-icon-vector-25054583.jpg";
+  margin-top: -5%;
 }
 a .contactIcons{
   height: 20px;
   width: 20px;
 }
 #contact{
-  height: 100px;
-  width: 300px;
+  margin-top: 10%;
 }
 .linkDiv{
   height: 100px;
   width: 100px; 
+}
+i{
+  height: 30px;
+  width: 30px;
 }
