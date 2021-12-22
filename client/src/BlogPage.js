@@ -4,7 +4,7 @@ import NavBar from './NavBar';
  function BlogPage (){
 
     return(
-        <div className='blogPage'>
+        <div className="blogPage fullpage">
             <NavBar/>
            BlogPage
         </div>

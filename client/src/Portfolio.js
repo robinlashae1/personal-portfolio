@@ -4,7 +4,7 @@ import NavBar from './NavBar';
  function Portfolio (){
 
     return(
-        <div className='portfolio'>
+        <div className="portfolio fullpage">
             <NavBar/>
            Portfolio 
         </div>

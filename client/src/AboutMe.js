@@ -4,7 +4,7 @@ import NavBar from './NavBar';
  function AboutMe (){
 
     return(
-        <div className='aboutMe'>
+        <div className="aboutMe fullpage">
             <NavBar/>
            AboutMe
         </div>
