@@ -31,7 +31,7 @@ function NavBar() {
           exact
           style={linkStyles}
         >
-          Portfolio
+          My Work
         </NavLink>
       </div>
     );
@@ -46,4 +46,5 @@ function NavBar() {
         margin: "0 6px 6px",
         textDecoration:"none",
         color: "black",
+        fontWeight: "500"
       };
