@@ -1,10 +1,11 @@
 import React from 'react';
 import NavBar from './NavBar';
 
- function HomePage (){
+ function HomePage ({title}){
 
     return(
-        <div className="homePage fullpage">
+        <div className="fullpage backGround">
+            <h1 className='title'>{title}</h1>
             <NavBar/>
             
             <img src='../portfolioImage.png' id="portfolioImage" alt="My Headshot"/>
