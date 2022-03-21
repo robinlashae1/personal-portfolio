@@ -46,5 +46,6 @@ const activeStyle={
     height: "fit-content"
 }
 const pStyle={
-    fontWeight: "600"
+    fontWeight: "600",
+    color: "white"
 }
