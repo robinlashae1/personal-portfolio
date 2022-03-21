@@ -7,7 +7,7 @@ import NavBar from './NavBar';
         <div className="blogPage fullpage backGround">
             <h1 className='title'>{title}</h1>
             <NavBar />
-            <div id='blogSpace'>
+            <div className='textSpace'>
             {blogList.map(blog=>(
             <div className="blogs">
             <a href={blog.url} key={blog.id}>
